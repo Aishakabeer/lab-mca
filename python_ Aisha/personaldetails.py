@@ -1,0 +1,8 @@
+name=input("enter the your name")
+rollno=int(input("enter the roll num"))
+course=input("enter the course")
+address=input("enter the your address")
+print("NAME: ",name)
+print("Roll num: ",rollno)
+print("COURSE: ",course)
+print("Enter your address: ",address)

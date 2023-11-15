@@ -1,0 +1,11 @@
+n1=int(input("enter the width "))
+n2=int(input("enter the length "))
+rec=n1*n2
+print("area of rectangle : ",rec)
+n11=int(input("enter the base "))
+n22=int(input("enter the height "))
+tri=float(n11*n22*.5)
+print("area of rectangle : ",tri)
+n111=int(input("enter the radious "))
+cir=float(n111*n111*3.14)
+print("area of circle : ",cir)
