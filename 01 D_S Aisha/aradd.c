@@ -17,7 +17,7 @@ int main()
 			   total=total+a[i];
 			}
 		
-     		printf(" sum of numbers %d :",total);	
+     		printf(" sum of numbers %d ",total);	
 	  }
 	else if(n<0)
         {
