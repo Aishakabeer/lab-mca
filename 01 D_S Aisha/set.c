@@ -21,130 +21,85 @@ void get_alphabets(char set[26], int n)
 	    printf("%c",set[i]);
 	}
 }
-
-
 void bit(char s[26],int bs[26],int z)
 {	int i;
 	int j;
-
 	for(i=0;i<26;i++)
-	{
-			
+	{	
 		bs[i]=0;
-
 	}
-
-
 	for(i=0;i<z;i++)
 	{
-	
 		for(j=0;j<26;j++)
 		{
-
 			if (s[i]==alphabet[j])
 			{
 				bs[j]=1;
 			}		
-
-
 		}
-
-
-
 	}
 }
-
-
 void set_union()
 {
        int i;
 	for(i=0;i<26;i++)
-	{
-			
+	{	
 		result[i]=0;
-
 	}
-
 	for(i=0;i<26;i++)
 	{		
-		result[i]=bit_set1[i]|bit_set2[i];
-		
-	
-	}	
-
+		result[i]=bit_set1[i]|bit_set2[i];	
+	}
 }
-
 void set_intersection(int bit_set1[26],int bit_set2[26])
 {
 	int i;
 	for(i=0;i<26;i++)
-	{
-			
+	{	
 		result[i]=0;
-
 	}
-
 	for(i=0;i<26;i++)
 	{		
-		
 		result[i]=bit_set1[i]&bit_set2[i];
-	
 	}
-
 }
-
-
 void set_complement(int x[26],int result[26])
 {
 	for(int j=0;j<26;j++)
 	{
 	    if(x[j]==1)
                {
-                  
-			result[j]=0;
+		       result[j]=0;
                }
            else
               {
-                   
 			result[j]=1;
               }
-	}
-        
+	}       
 }
-
 void set_com(int x[26])
 {
 	for(int j=0;j<26;j++)
 	{
 	    if(x[j]==1)
-               {
-                  
+               {  
 			results[j]=0;
                }
            else
-              {
-                   
+              {         
 			results[j]=1;
               }
-	}
-        
+	} 
 }
-
-
 void display(int z[26])
 {	int i;
 	for(i=0;i<26;i++)
-	{
-			
+	{		
 		printf("%d ",z[i]);
-
 	}
 	printf("\n\t\t");
 	for(i=0;i<26;i++)
 	{
-	
-		
-
 			if (z[i]==1)
 			{
 				printf("%c ",alphabet[i]);
@@ -154,9 +109,7 @@ void display(int z[26])
                              printf("  ");
                         }		
 	}
-
 }
-
 int main()
 {
 	int j, set1_sze, set2_sze;
@@ -208,5 +161,3 @@ int main()
 	
 	return 0;
 }
-
- 
