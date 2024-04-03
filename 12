@@ -1,0 +1,129 @@
+import java.util.Scanner;
+
+/*Create an interface having prototypes of functions area() and perimeter().*/
+
+interface AP
+
+void input(); void area();
+
+void perimeter();}
+
+/*Create two classes Circle and Rectangle which implements the above interface. */
+
+class Circle implements AP(
+
+intre;
+
+double pi 3.14, area 0, perimeter 8;
+
+public void input(){
+
+Scanner c= new Scanner(System.in);
+
+c.nextInt();)
+
+public void area(){
+
+area pir;
+
+System.out.println("Area of circle: area);}
+
+public void perimeter(){
+
+perimeter 2*pir;
+
+System.out.println("Perimeter of circle: + perimeter); }}
+
+class Rectangle implements AP{
+
+int 10, b0; double area, perimeter;
+
+public void input(){
+
+Scanner new Scanner(System.in);
+
+1r.nextInt(); br.nextInt();}
+
+public void area(){
+
+area 1 b; System.out.println("Area of rectangle:" area);}
+
+public void perimeter(){
+
+System.out.println("Perimeter of Rectangle: + perimeter);}}
+
+perimeter 2 (1+b);
+
+/ Create a menu driven program to find area and perimeter of objects. */
+
+public class IFaceDemo (
+
+public static void main(String[] args) {
+
+int ch;
+
+Circlec new Circle();
+
+Rectangle r new Rectangle();
+
+Scanner sC new Scanner(System.in);
+
+System.out.println("1: Area of Circle");
+
+System.out.println("2: Area of Rectangle"); System.out.println("3: Perimeter of Circle");
+
+System.out.println("4: Perimeter of Rectangle");
+
+System.out.println("5: Program termination");
+
+Ip while(true) {
+
+System.out.print("Make your choice: ");
+
+ch sc.nextInt();
+
+switch (ch)(
+
+case 1:
+
+System.out.print("Enter the radius of the Circle \n");
+
+c.input();
+
+c.area();
+
+break; case 2:
+
+System.out.print("Enter the length and breadth of the Rectangle \n");
+
+r.input();
+
+r.area();
+
+break;
+
+case 3:
+
+System.out.print("Enter the radius of the Circle \n");
+
+c.input();
+
+c.perimeter(); break;
+
+case 4:
+
+System.out.print("Enter the length and breadth of the Rectangle \n");
+
+r.input();
+
+r.perimeter();
+
+break;
+
+case 5:
+
+break Ip;
+
+default:
+
+System.out.println("Invalid choice! Please make a valid choice..");}}}}//End.
