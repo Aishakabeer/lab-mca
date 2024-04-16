@@ -1,0 +1,21 @@
+interface Student {
+
+int score 10; void displayScore();)
+
+interface Sports ( int score 25; void displaySportsScore();}
+
+class Result implements Student, Sports (
+
+void displayScore(){ System.out.println ("Academic Score is Student
+
+score);}
+
+public
+
+public void displaySports5core () { System.out.println ("Sports Score is: Sports score);}}
+
+public class SportStudentResult ( public static void main(String[] args){
+
+Result new Result ();
+
+r. displayScore(); displaySportsScore();}} //End.
