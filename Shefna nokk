@@ -1,0 +1,105 @@
+interface BillGen( int calculate();}
+
+class ProductB implements BillGen(
+
+String name;
+
+int prod id, quantity, unit price, total;
+
+ProductB()()
+
+Product(String n, int p, int q, int u)(
+
+namen; prod_id= p;
+
+quantity q; unit price
+
+public int calculate(){
+
+total quantity unit price;
+
+return total;}}
+
+public class Bill (
+
+}
+
+public static void main(String[] args) {
+
+ProductB[][] order;
+
+System.out.println("Enter no. of orders: "); Scanner sc new Scanner (System.in);
+
+int n sc.nextInt();
+
+order new ProductB[n][];
+
+for ( int i=0;i<n; i++) {
+
+System.out.println("Enter no. of Products: ");
+
+int sc.nextInt();
+
+order[1] new ProductB[m];
+
+for (int j=0; j<n; j++){
+
+System.out.println("Enter Product +1+ Name: ");
+
+String a sc.next();
+
+System.out.println("Enter Product ID: ");
+
+int b sc.nextInt();
+
+System.out.println("Enter Product Quantity: ");
+
+int csc.nextInt();
+
+System.out.println("Enter Product Unit Price: ");
+
+int d sc.nextInt();
+
+Products pb new ProductB (a,b,c,d);
+
+order[1][j] = pb;
+
+order[i][j].total order[i][j].calculate();}}
+
+for(int i; i < n; i++){ int sum ;
+
+System.out.println("Order No: (1+1));
+
+Date date java.util.Calendar.getInstance().getTime();
+
+System.out.println(date );
+
+System.out.println("
+
+System.out.printf("X5s $20s $25s Sits ties", "Prod Id", "Nane", "Quantity", "Unit Price", "Total");
+
+System.out.println();
+
+System.out.println("--
+
+for(int j 0; j<order[1].length; j++){
+
+System.out.printf("$55 320s $255 Steskies", order[1][j].prod id, order[1][j].name,
+
+System.out.println();)
+
+System.out.println("...
+
+order[1][1].quantity, order[1][1].unit price, order[1][1].total);
+
+for (int k; ktorder[1].length; k++)
+
+sum sun order[i][k].total;
+
+System.out.println(" Net Amount sum);
+
+1
+
+System.out.println("....
+
+}}}//
